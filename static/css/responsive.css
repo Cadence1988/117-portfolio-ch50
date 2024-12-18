@@ -1,0 +1,47 @@
+/* small screens */
+@media(max-width:640px) {
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .nav-options {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 1rem 0px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* tablets */
+@media(min-width: 641px) and (max-width: 1007px) {
+    html {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 1rem 0px;
+    }
+}
+
+/* large screen */
+@media(min-width: 1008px) {
+    html {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 1rem 0px;
+    }
+}
